@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+/* Beautiful modern dark theme scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090d16; /* Near black Slate-950/Slate-900 blend */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b; /* Slate-800 */
+  border-radius: 9999px;
+  border: 2px solid #090d16; /* padding space around thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4f46e5; /* Indigo-600 */
+}
+
+/* Scrollbar support for Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #1e293b #090d16;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "NCP Toolpath Viewer",
+  "description": "Interactive CNC G-code and NCP file toolpath viewer with 3D simulation, workspace statistics, and batch file management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
